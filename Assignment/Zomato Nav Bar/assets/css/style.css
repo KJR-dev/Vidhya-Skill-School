@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    margin: 0px;
+}
+
+#top_header{
+    height: 420px;
+    background-image: url(../images/zomato_header_image.png);
+}
+#top_nav_bar{
+    width: 85%;
+    margin: auto;
+    /* background-color: red; */
+    height: 72px;
+
+}
+#getAppIcon{
+    height: 20px;
+}
+ul{
+    list-style-type: none;
+    
+    padding-inline-start: 0px;
+}
+#top_nav_bar_li1{
+    width: 50%;
+    padding: 20px 0px;
+    color: white;
+}
+#top_nav_bar_li2, #top_nav_bar_li3, #top_nav_bar_li4, #top_nav_bar_li5{
+    padding: 25px 25px 20px 15px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#left_top_nav_bar{
+    display:flex;
+}
+#zomato_logo{
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+#description{
+    color: white;
+    font: 5px arial, arial, helvetica;
+    text-align: center;
+    font-size: 38px;
+    margin: 20px;
+}
+.common_value_search_div{
+    display: flex;
+    height: 50px;
+    width: 780px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+#location_icon{
+    height: 20px;
+    margin: 15px 10px;
+    
+}
+#search_bar{
+    margin: 0px;
+    width: 180px;
+    text-overflow: clip;
+}
+#triangle_symbol{
+    margin: 15px 10px;
+    color: rgb(173, 172, 172);
+    border-right: 1px solid rgb(173, 172, 172);
+    padding-right: 10px;
+    
+}
+#line{
+    rotate: 90;
+    border-color:black ;
+}
+#search_logo_span{
+    padding: 5px;
+}
+#search_logo{
+    height: 25px;
+    margin-top: 9px;
+}
+#search_food{
+    width: 100%;
+}
