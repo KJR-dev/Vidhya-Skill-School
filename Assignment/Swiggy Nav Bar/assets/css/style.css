@@ -9,8 +9,6 @@ nav {
   height: 50px;
   width: 50%;
   display: flex;
-
-  /* background-color: lightblue;  */
 }
 #swiggyIcon {
   margin-left: 30px;
@@ -61,7 +59,6 @@ hr {
   height: 80%;
   width: 20%;
   margin: 30px 0px 0px 25px;
-  background-color: red;
 }
 #offerCard_0 {
   background-image: url(../images/offerCard_0.png);
